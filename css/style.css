@@ -43,7 +43,7 @@ body {
 }
 .navbar__list-thrid {
   z-index: 3;
-  left: calc(100% - 10px);
+  left: 100%;
   top: calc(100% - 40px);
 }
 .navbar a {
