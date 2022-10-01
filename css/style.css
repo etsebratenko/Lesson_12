@@ -27,7 +27,7 @@ body {
   min-width: 200px;
   position: absolute;
   display: none;
-  box-shadow: 2px 2px 7px;
+  box-shadow: 1px 1px 2px;
 }
 .navbar li ul li {
   position: relative;
@@ -52,7 +52,7 @@ body {
   justify-content: center;
   color: var(--color-white);
   text-decoration: none;
-  padding: 0.25em 1em;
+  padding: 0.5em 2em;
   min-height: 50px;
   gap: 1em;
 }
@@ -67,4 +67,7 @@ body {
 }
 .navbar a > span:first-of-type {
   margin-left: 0.5em ;
+}
+.navbar__list-border {
+  border: 0.5px solid #034e87;
 }
